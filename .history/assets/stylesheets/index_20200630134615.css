@@ -1,0 +1,209 @@
+
+/*
+=== CSS Reset ===
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 62.5%;
+	font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+a {
+  text-decoration: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+=== Color Scheme ===
+$mindaro: #ddfcadff;
+$yellow-green-crayola: #c8e087ff;
+$moss-green: #95a472ff;
+$artichoke: #82846dff;
+$dim-gray: #646165ff;
+
+$gradient-top: linear-gradient(0deg, #ddfcadff, #c8e087ff, #95a472ff, #82846dff, #646165ff);
+$gradient-right: linear-gradient(90deg, #ddfcadff, #c8e087ff, #95a472ff, #82846dff, #646165ff);
+$gradient-bottom: linear-gradient(180deg, #ddfcadff, #c8e087ff, #95a472ff, #82846dff, #646165ff);
+$gradient-left: linear-gradient(270deg, #ddfcadff, #c8e087ff, #95a472ff, #82846dff, #646165ff);
+$gradient-top-right: linear-gradient(45deg, #ddfcadff, #c8e087ff, #95a472ff, #82846dff, #646165ff);
+$gradient-bottom-right: linear-gradient(135deg, #ddfcadff, #c8e087ff, #95a472ff, #82846dff, #646165ff);
+$gradient-top-left: linear-gradient(225deg, #ddfcadff, #c8e087ff, #95a472ff, #82846dff, #646165ff);
+$gradient-bottom-left: linear-gradient(315deg, #ddfcadff, #c8e087ff, #95a472ff, #82846dff, #646165ff);
+$gradient-radial: radial-gradient(#ddfcadff, #c8e087ff, #95a472ff, #82846dff, #646165ff);
+*/
+/*
+=== Font Famlies Used ===
+font-family: 'Dancing Script', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Lobster Two', cursive;
+*/
+
+/*
+=== Basic Styling ===
+*/
+html {
+  background:#ddfcadff; 
+  color: #646165ff;
+}
+h1 {
+  font-size: 3.5rem;
+  font-family: 'Lobster Two', cursive;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: 'Libre Baskerville', serif;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: 'Lobster Two', cursive;
+}
+
+h4 {
+  font-size: 1.75rem;
+  font-family: 'Dancing Script', cursive;
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-family: 'Lobster Two', cursive;
+}
+
+p,
+li {
+  font-size: 1rem;
+  font-family: 'Libre Baskerville', serif;
+}
+
+a {
+  font-size: .75rem;
+  font-family: 'Libre Baskerville', serif;
+  text-decoration: none;
+  color: #ddfcadff;
+}
+
+
+/*
+=== Heading Styling ===
+*/
+
+#header {
+  background: #c8e087ff;
+  margin: 10vh 3vw;
+  padding: 5vh 0;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+#heading {
+  text-decoration: underline;
+  margin-bottom: 10vh;
+}
+header h2 {
+  background: #ddfcadff;
+  border: 2px solid;
+  padding: 3vh 2vw;
+  margin: 4vh 3vw;
+	border: 7px dotted black;
+}
+
+/*
+=== Navigation Styling ===
+*/
+
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.nav-link {
+  text-align: center;
+  min-height: 50px;
+  max-height: 75px;
+  display: block;
+  width: 25vw;
+  height: 10vh;
+  padding: 3vh 0; 
+  background: #82846dff;
+  border-left: .5px solid white;
+  border-bottom: .5px solid white;
+}
+
+/*
+=== Main Content Styling ==
+*/
+#mainWrapper p {
+  background: #95a472ff;
+  margin: 0 3vw;
+  padding: 2vh 2vw;
+  text-align: center;
+  border: solid 1px white;
+  border-radius: 20px;
+}
+.aboutCanna {
+  display: flex;
+}
+.title {
+  text-align: center;
+}
+.sec-title {
+  color: #c8e087ff;
+  background: #82846dff;
+  padding: 3vh 0;
+}
+.sub-title {
+  margin: 5vh 0;
+  text-decoration: underline;
+}
+
+.video-section video {
+  width: 60vw;
+  margin: 0 20vw;
+}
+
+/*
+=== Media Queries ===
+*/
+

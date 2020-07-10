@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Landing Page Project</title>
+  <meta name="description" content="Landing Page">
+  <meta name="author" content="Christopher Coleman">
+  <meta name="keywords" content="Tribute, Honering">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/stylesheets/index.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster+Two:ital,wght@0,400;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header (Heading, Description, and NavBar -->
+  <header id="header">
+
+    <!-- NavBar (4 links to sections of Landing Page) -->
+    <nav id="nav-bar">
+      <a href="#about-canna" class="nav-link">Canna Health</a>
+      <a href="#what-we-offer" class="nav-link">What We Offer</a>
+      <a href="#who-we-are" class="nav-link">Who We Are</a>
+      <a href="#make-an-appointment" class="nav-link">Make An Appointment</a>
+    </nav>
+
+    <!-- Heading and Description -->
+    <section class="headerWrapper">
+      <img src="assets/images/logo.png" id="header-img" width="100px" alt="logo">
+      <h1 id="heading">Coleman Canna Care Tele-Health</h1>
+      <h2>The finnest Canna Care done on your time. Meet anytime, anywhere with online Tele-health Canna Care.</h2>
+    </section>
+  </header>
+
+  <!-- Main Content -->
+  <main id="mainWrapper">
+
+    <!-- About Canna Health and Marijuana-->
+    <section id="about-canna">
+      <h3 class="title">About Canna Health</h3>
+
+      <h4 class="title">How marijuana effects the body</h4>
+      <p>Marijuana reacts directly with the body’s endocannabinoid system, which is a group of receptors located in
+        the brain and
+        throughout the central nervous system</p>
+
+      <h4 class="title">Types of Marijuana</h4>
+      <h5 class="title">Sativa</h5>
+      <p>Sativa strains are invigorating and provide cerebral effects including euphoria and increased energy. They
+        are
+        recommended for patients with symptoms that include fatigue, depression or mood disorders.</p>
+
+      <h5 class="title">Indica</h5>
+      <p>Indica produces more sedative and relaxing effects and provides deep body relaxation. These strains are
+        recommended for
+        patients suffering from symptoms such as insomnia, pain or anxiety.</p>
+
+    </section>
+    <section class="video-section">
+      <h3>How can marijuana help?</h3>
+      <video id="video" width="350px" controls>
+        <source src="/assets/videos/CannabisandtheendocannabinoidsystemEnglishmp4.mp4" type="video/mp4">
+      </video>
+    </section>
+      <!-- What CCC offers -->
+    <article class="offeredClass">
+      <h3 id="what-we-offer">What We Offer</h3>
+      <section class="offeredList">
+        <ul id="offered-list">
+          <li>Online Scheduling</li>
+          <li>Zoom Meeting Face2Face with your doctor</li>
+          <li>Prescriptions sent directyly to you nearest distributor</li>
+          <li>Help getting your MMC (medical marijuana card)</li>
+          <li>Treatment for the following conditions:
+            <ul>
+              <li>Aids</li>
+              <li>Amyotrophic lateral sclerosis (ALS)</li>
+              <li>Caner</li>
+              <li>Chronic pain</li>
+              <li>Damage to the nervous tissue of the spinal cord with objective neurological indication of
+                intractable spasticity</li>
+              <li>Epilepsy</li>
+              <li>HIV</li>
+              <li>Multiple sclerosis</li>
+              <li>Inflammatory bowel disease</li>
+              <li>Neuropathy</li>
+              <li>Huntington's disease</li>
+              <li>Opoid use disorder</li>
+              <li>Opioid replacement</li>
+              <li>Parkinson's disease</li>
+              <li>Post-traumatic stress disorder</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </article>
+
+      <!-- Who we are section -->
+      <section class="whoWeAre">
+        <h3 id="who-we-are">Who We Are</h3>
+
+      </section>
+
+      <!-- Form to get more information sent to email -->
+      <!-- Email input and submit button -->
+      <section class="form-section">
+        <h3 id="make-an-appointment">Make an appointment</h3>
+        <p>To make an appointment of find out more information about medical marijuana and canna health please enter
+          your email below:</p>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" placeholder="email required" required>
+          <input type="submit" id="submit" value="Send" form="form"></input>
+        </form>
+      </section>
+
+  </main>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
