@@ -8,7 +8,8 @@
   <meta name="author" content="Christopher Coleman">
   <meta name="keywords" content="Tribute, Honering">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="assets/stylesheets/index.css">
+  <!-- <link rel="stylesheet" href="assets/stylesheets/index.css"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link
     href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster+Two:ital,wght@0,400;1,700&display=swap"
     rel="stylesheet">
@@ -19,11 +20,17 @@
   <header id="header">
 
     <!-- NavBar (4 links to sections of Landing Page) -->
-    <nav id="nav-bar">
-      <a href="#about-canna" class="nav-link">Canna Health</a>
-      <a href="#what-we-offer" class="nav-link">What We Offer</a>
-      <a href="#who-we-are" class="nav-link">Who We Are</a>
-      <a href="#make-an-appointment" class="nav-link">Make An Appointment</a>
+    <nav class="navbar sticky-top navbar-dark bg-dark" id="nav-bar">
+      <a class="navbar-brand" href="#" id="heading">Coleman Canna Care</a>
+      <button class="navbar-toggler" type="button" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navbar" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse">
+        <a class="" href="#about-canna" class="nav-link">Canna Health</a>
+        <a href="#what-we-offer" class="nav-link">What We Offer</a>
+        <a href="#who-we-are" class="nav-link">Who We Are</a>
+        <a href="#make-an-appointment" class="nav-link">Make An Appointment</a>
+      </div>
     </nav>
 
     <!-- Heading and Description -->
