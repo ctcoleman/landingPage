@@ -43,3 +43,8 @@ You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is rec
 [x] User Story #15: My product landing page should utilize CSS flexbox at least once.
 
 You can build your project by forking this CodePen pen. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
+
+### Additions
+
+v2.0 - Sept. 6th 2020
+This one isn't too bad, but I want some more practice with bootstrap so, I'm going to redo the layout in bootstrap including a collapsable navbar
